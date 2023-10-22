@@ -1,0 +1,136 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<8>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<3>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Wind Chill)
+      Approach: For the wind chill problem the approach that I took was to
+      copy the formula down first to see if it worked correctly. Then I
+      added the if statements to report a message.
+
+      Issues and resolution: I had not problems as it was similar to the last
+      project, thus it was pretty simple to do.
+
+   Problem 2 (Day of the Week)
+      Approach: I first wrote the inputs and formula down. Then I did the if
+      statements for each day. Such as if the dow is this then it equals this day.
+
+
+      Issues and resolution: No, real problems as it was similar to the last
+      project, and I only needed to add the if statements.
+
+   Problem 3 (Playing Card)
+      Approach: To start this problem I had to follow the directions. So
+      I first started with setting the rank random integer statement that
+      would in range from 2 to 14. Then I created an empty string as rankStr.
+      Then I did if statements that would check the corresponding rank number
+      from the random integer to the playing card rank. Then I did a similar
+      process for the playing card suits. Then I used the f-string method for
+      output to reduce the amount of syntax I needed.
+
+      Issues and resolution: The only real problem was with setting the rank
+      from 2 to 14. I first set it as (2, 14) and, but that didn't include 14
+      thus I was missing an entire rank, so I set it to (2, 15) and it worked just fine.
+
+   Problem 4 (Root Finding)
+      Approach: For the problem I simply followed the directions that were laid
+      out such as t =c  and then for the Repeat as long as |1 − c/t| > epsilon. I set that
+      as a while loop. Copied the equation down as was shown in the directions
+      and then did the output of t
+
+      Issues and resolution: I didn't have problems except that I didn't understand
+      what replace t by t - f(t) was till, I retried and understood it.
+
+   Problem 5 (Greatest Common Divisor)
+      Approach: The GCD.py was done similar to the rest of the problems. I looked
+      at the directions and simply did my own interpertaion of it.
+      Repeat as long as p mod q 6 != 0, I made it into a while loop. then I did exchange
+      p and q with q and p mod q I simply tried various combinations till i got it
+
+      Issues and resolution: The problem was that I didn't really know what the exchange part
+      of the instructions meant, till I finally found the right combination that worked.
+
+   Problem 6 (Fibonacci Number)
+      Approach: The fibonacci was a bit tricky as I didn't understand the instructions
+      So, I did it my own way following the instructions as best I could. What I came up with
+      was that I could if statemnts in the I <= n that was i % 2 == 0 to determine if the
+      if I was even and odd thus allowing me to switch between adding a and b to each to a or b
+      depending on if it was even or odd. Then doing n % 2 to determine if I should print out
+      a or b. Which worked. But it wasn't how the directions wanted it. So, I found out
+      I could use the temp statment for the switching part between a and b which allowed me to
+      figure out the way the directions wanted me to do it.
+
+      Issues and resolution: The issue was that I didn't undersatnd the dirctions and had ot
+      improvise. So, I did the problem my way (See Approach) and then after a while did I figure
+      out I could do it the way it was meant to be done.
+
+   Problem 7 (Sum of Powers)
+      Approach: The problem was simple as I simply set the inputs and then
+      I set total to 0 and then did a for loop that was in range of 1 to n. Then
+      I did total += i ** k which added i with an exponent of k to the total then i simply
+      outputed the total.
+
+      Issues and resolution: No problems I had with this, as it was pretty easy.
+
+   Problem 8 (Dragon Curve)
+      Approach: The Dragon Curve problem was really hard for me to do, inpart
+      I didn't get the problem setting. I didn't understand what nogard was or what it was
+      asking me to do. It took me about 2 hours of work to figure it out. I started with
+      inputs and setting dragon and nogard to "F". Then the rest of the time
+      I tried to create a loop that would swap Dragon and noargd with "L "
+      and nogard and dragon "R". Thus later after trying it with a for loop I
+      found out that if I could use temp = dragon as a place holder for the
+      switching as I did with fibonacci.py. Thus after that I was able to easily do it
+
+
+      Issues and resolution: The main problem was trying to figure out what it wanted me to do
+      . Impart I think I was confused about what the switching was all about. Only after a
+      cup of coffee and banging my head against a wall did I figure its basically the fibonacci
+      program.
+
+   Problem 9 (Perfect Numbers)
+      Approach: The perfect number problem was pretty easy to do I just had to follow
+      the directions. I did the input first, set the total to 0
+      then I set up a for loop inside another for loop which would check for the
+      perfect number. Then if than number met the criterea of i = total
+      then I would output i as the perfect number.
+
+      Issues and resolution: ...
+
+   Problem 10 (Ramanujan Numbers)
+      Approach: The Ramanujan Numbers the appraoch was not to dissimiliar to the other prblems
+      I first started of with reading the directions. Then I simply used 4 nested loops
+      with the different equations that were provided in that range. Then inside the intermost
+      loop I did a * a * a + b * b * b = c * c * c + d * d *d. Then I created total with was
+      a * a * a + b * b * b which found the total then I simply used a str to convert
+      the int into a string then i connected all of them with each other with the +
+
+      Issues and resolution: Then only real problem was trying to figure the different eqautions I
+      needed in the problem which was pretty annoying as I kind of didn't understand it, till
+      I reread the entire problem. I also had a problem with the for loop, which I forgot to tab and the
+      entire thing became messed up which I need to restart it, because I didn't know what caused the issue till
+      after the restart. But other than that it was just following the directions.
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+  Google              Website       Helped with looking up how to do proper for and while loops
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I think the project was fun, but there were a few problems where it was
+   hard to understand what they were asking for such as the dragon problem.
+   But, other than that I think it was pretty easy to do.

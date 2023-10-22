@@ -1,0 +1,112 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<3>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<2>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Day of the Week)
+      Approach: I simply copied down the equations in the format of python
+
+      Issues and resolution: The only issue that happened was that during
+      testing I did not write my peranthesis correctily. This gave me the
+      wrong values when I tested for it. I resolved the issue by simply,
+      testing each out. So I tested what was y0 and so on
+      till I found which line I did wrong.
+
+   Problem 2 (Mercator Projection)
+      Approach: For the mercator I wrote the formula down
+      in pycharm and used math.sin and math.log.
+      Issues and resolution: The issue was that I couldn't do the output
+      because floats can be used with +. So I had to
+      convert them to strings to make it work. I also forgot
+      to use math.radians to convert it, which i later found
+      out via testing, and went over the directions to see
+      that I needed to use it.
+
+   Problem 3 (Great Circle Distance)
+      Approach: The approach was to write down the formula
+      for d in pycharm and set the the agruments as well.
+
+      Issues and resolution: The only issue was that I again
+       forgot to convert it to radians. This issue was resolved
+      after revisitng the directions
+
+   Problem 4 (Wind Chill)
+      Approach: For wind chill I did what I usaully do for these types
+      of problems is copy and write down the formula
+
+
+      Issues and resolution: No Issues
+
+   Problem 5 (Gravitational Force)
+      Approach: Copied formula for both G and f and used
+      scietific notation for G
+
+      Issues and resolution: No issues
+
+   Problem 6 (Snell's Law)
+      Approach: used math.sin for sin and theta instead of θ as its
+      easier to understand for me. Then wrote formula
+
+      Issues and resolution: I had a problem with math.radians()
+      and math.degrees and not knowing where to put them.
+      This was figured out when I did a bunch of experiments till
+      I got the disired output. Such as placing them where I thought
+      they belonged
+
+
+   Problem 7 (Gambler's Ruin)
+      Approach: Copy formula and and all the other variables such as q
+      and defined p1 and p2.
+
+      Issues and resolution: Issue that I had was I used n2 instead of n1 for p2
+      variable. This issue was resolved when I retyped p2 and noticted midway through
+      that I didn't do it correctly
+
+   Problem 8 (Waiting Time)
+      Approach: Defined p and worte its formula, then wrote its args.
+
+      Issues and resolution: No issues
+
+   Problem 9 (Die Roll)
+      Approach: tried to figure out how to use strandom which
+      I used to define the two variables that I created.
+
+      Issues and resolution: I didn't know that for strandom.uniformInt()
+      need an input of (n, n + 1). This I only figured out after googling how
+      to use it.
+
+   Problem 10 (Three Sort)
+      Approach: I needed to create my own formuela and define the vairables.
+      This I figured out the a way to create a varibale for the min
+      and max. Then I created a fromula to figure out the middle number.
+      Used str() to put into strings the 3 varibles,
+      so that i could create a space using + between them.
+
+
+      Issues and resolution: No Issues
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+   Michael Morris     Classmate     Helped on what I should write for the report.txt
+   ...                ...          ...
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+    What I learned is that I need to pay attention more to small mistakes
+    most of the issues is that i simply didn't pay attention enough.
+    I also need to do more research on how and when to use radians
+    and degrees. But other than that It was pretty easy.
+   ...

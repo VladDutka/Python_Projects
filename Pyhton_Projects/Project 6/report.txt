@@ -1,0 +1,59 @@
+1. Hours to complete the project: ... hours
+     <<12>>
+2. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Markov Model Data Type)
+     Approach: My approach with the markov model was that of trying to figure out
+     what the question wanted me to do. It took me about 1 - 2 hours to figure out
+     the general Idea of what the markov model should be. I defined what self._st and
+     self._k should be. Then I defined circ_text and with it I used it to create kgram.
+     Then created a for a loop which increments it by 1 and stores it. Then for
+     kgram_freq I made return the frquency of kgram which then retutrns the sum of values
+     Char freuqnecy I setdefualt which I had to google on how to do, I then used it to
+     check if it was equal to o. Rand I used a for loop which checks if the freuqnncy of
+     kgram and char then I divide them to deterimine the chances of getting it. I then returned the
+     items of the list of keys and the rand index. Gen I created as a intertation loop
+     for rand, by it just going through the number of times (n) till it reachs it and then returns a
+
+
+     Issues and resolution: The first issue was trying to figure out how to setdefault. I
+     thought that setdefault would be easiest way for me to do dict but I had no idea
+     how to use it (Found on w3 when I tried to figure keys). Second issue I had was that whenever
+     I returned items[rand] it said the return variable could not be iterated. Thus
+     I had to go look up the error and found it on stackoverflow.com that someone usedm list()
+     solve it. I then used list() to fix the issue. The thrid issue was that random issues for
+     instance I didn't do return self._k and the entire code was wrong. Stuff like that
+     which took me 3 -4 hours to debugg. The fifth issue was rand didn't work, and I
+     had to rewrite the code 4 times because each time some issue happened that I didn't
+     know, such as one time returning empty strings and False is not true error. I fixed once
+     I found a easy way of doing it.
+
+   Problem 2 (Random Text Generator)
+     Approach: The random text gen was very simple to do. I did the arguments k and n. Then I did
+     text to text to read from standard input using sys.stdin.read(). Then with kgram = text[0:k] I was
+     able to generate a text length of n and first characters k text, which then writes it to standard output.
+
+
+     Issues and resolution: I had no issues
+
+   Problem 3 (Noisy Message Decoder)
+     Approach: My appraoch was that of creating a way to replace ~. I did this by getting the keys, then iterating
+     through the loop, with the keys to see what from symbotable had the the highest probablitiy. Then for fix corrupted
+     I basically did what I did with random text generator, but changed it to decode text instead of generating things.
+
+     Issues and resolution: I had no issues
+
+3. Did you receive help from anyone? List their names, status (classmate,
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   W3                 Website       SetDefault help
+
+4. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I have no suggestions or comments.

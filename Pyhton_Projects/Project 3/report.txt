@@ -1,0 +1,63 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<10>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<7>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Generating the Waltz)
+      Approach: The approach I took with generating the waltz was that
+      of creating definitions. The reason I took this approach was
+      if the player wanted to change the scope they could easily do
+      it. The second reason was that if I needed to integrate with
+      play waltz file later on. The Definition functions also
+      allowed the tri and measures to be separated allowing it to look
+      and operate better. If any part of trio or measure needed to be changed
+      it would allow it for it in a more efficient manner. Other than that
+      I simply followed the instructions, and it worked.
+
+      Issues and resolution: The only real problem was with the fact
+      that I couldn't get read int to work but first tried it with .open
+      method. This was very timing consuming, and I needed to debug the
+      whole code to make it work. But, then as I was going through
+      the other problems I needed to see the inputs and realized
+      I could do it with read all ints.
+
+   Problem 2 (Playing the Waltz)
+      Approach: The approach that I took with play waltz
+      was similar to what I took with generate waltz in that
+      I made a main function, because I was told it is good
+      practice to keep code organized. Then rest was just following
+      instructions, the If stamens were easy and the .play was
+      pretty self-explanatory. But other than that it was just
+      following the instructions
+
+      Issues and resolution: The only issue I had was that numpy was not
+      working correctly. This took some time and me talking to someone
+      as to why numpy was broken. It would seem it was corrupted, and I
+      needed to reinstall it. But, other than that everything worked pretty
+      well.
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+   Erikson            Student      Fixing the numpy issue
+
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I feel like the project was fairly easy, except that the instructions
+   were confusing and that they were the hardest part. Like I could
+   get the output, but then it would be done the way it was meant to.
+   But, once I reread it multiple times it all made sense.
+

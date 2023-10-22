@@ -1,0 +1,71 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<6>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<4>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Particle Representation)
+      Approach: My approach first of was to call the self method for
+      _x and set it to zero. Then I dd the Add definition in which made it add one pixel to
+      (x,y). Then i did mass which just returns self._pixels back, indicating number
+      of pixels. The distanceTo was based of the euclidean distance formula in previous
+      problems and then returned the sqrt distance. Then I finally did the string represent of b using,
+
+      Issues and resolution: To be honest this was the easier one of the problems of
+      the porject and didn't have major problems.
+
+   Problem 2 (Particle Identification)
+      Approach: The approach of doing this project was doing what I can from directions
+      For instance what the different variables should I simply did them. There were
+      some variables that i didn't do, because I didn't know how they will work together
+      Thus I had for a brief time to ignore the variables and do what i need before coming back.
+      i soo reached point that I filled in 50% of the problem, and then was able to understand the
+      interaction between blob and blob finder.
+
+      Issues and resolution: i ran into the problem of me not knowing how this problem work,
+      until at least half of it was done. This added extra time to the project as a whole since
+      it took me to sessions to do. That is the only problem was that this problem caused a lot more time
+      to do.
+
+   Problem 3 (Particle Tracking)
+      Approach: My approach to this problem was pretty simple in that  defined the variables
+      that were needed but I added one more called files. Files gives me a list of the images
+      that need to be checked, for I didn't understand how else for me to do, since blobfinder
+      directly relates to file and from that list we get beads1. Then I made a for loop
+      that goes through each of the images and gives me beads 1 and saves the previous
+      resulted to bead0. Then a second for loop which calculates how much each one moves from each
+      other via the DIST variable. Then if dist if less than delta writes it out
+
+
+      Issues and resolution: The main issue that I had with this was that I
+      got beads0 and beads1 confused. I switched beads1 with beads0 on line 27 and beads1 and beads on lne 24.
+      But, other than taking a very long time it wasn't very as you just had figured how
+      the pieces with blobfinder would work together.
+
+   Problem 4 (Data Analysis)
+      Approach: The approach was very simple as the directions were very straight forward on
+      what needed to be done.  Defined ETA, RHO, T and R and after that  simple wrote the
+      formulas that needed to be done as was instructed. This was the easiest of all the problems
+      on the project.
+
+      Issues and resolution: I had no problems.
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+    None                None        None
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+    The project was pretty simple in the fact that most were just follow the instructions and you are
+    done, but problem 1,23,3 were the hardest and took me 4 hours of on and off time to do. The reason being that
+    I had to read and reread what I am suppose to do for it. Other than that was a pretty fun project.

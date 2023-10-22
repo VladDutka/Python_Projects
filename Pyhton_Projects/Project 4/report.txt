@@ -1,0 +1,70 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<4>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<2>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (RSA Library)
+      Approach: The approach i took was to try to figure out how each of the functions
+      would work to together. So, I started out by doing all the other functions first.
+      It was pretty simple to implement all of them first as the instructions provided the framework of what I needed to do. I also tried various methods to find out how to 'shuffle'
+      the first k elements and also how to create a copy of a list.
+
+      Issues and resolution: In order for me to figure out how to shuffle the list
+      I thought about that it had to do something with randomizing, and so I tried
+      to use Std.random() from 0 to the length of the list that was the copy. I also
+      Looked up how to make a copy of a list, and it turned out pretty simple it was
+      .copy(). There were some minor other problems, but it was pretty simple to do.
+
+   Problem 2 (Keygen Program)
+      Approach: The approach I took was pretty simple in that I simply
+      did the lo and hi as accepted ints, then I made key equal
+      to the tuples that keygen would return. I then split it up using indexes
+      from key[0] - key[2] to get each value in the indexes, and then I made them
+      into a string, and it simply outputted the values separated by a space.
+      Issues and resolution: I had no problems with problem.
+
+   Problem 3 (Encryption Program)
+      Approach: The approach I had with this was to just follow the instructions.
+      I made the width equal to the width of the encryption and figured out how make
+      it read the "message" that was being inputted. I then wrote the for loop, and
+      used the _dec2bin to convert the decimal number that was made by ord() and
+      converted to binary, then outputted.
+
+      Issues and resolution: The problem I had was trying to figure how to do
+      how to read the message. I went through the notes to figure out that I could
+      do readall(). I then remembered that I can use dec2bin from the RSA to convert the
+      number to binary.
+
+   Problem 4 (Decryption Program)
+      Approach: With the decryption program I simply copied everything from the encryption
+      program till the for loop. I then followed the for loop. Rather than using l and
+      defining it, I simply used len(message) instead with the -1 because I would already
+      subtract it from if used in the for loop range argument. The rest was pretty simple
+      to implement, as it was described in the instructions.
+
+      Issues and resolution: The problem I ran into was figuring out was the substring.
+      I resolved it by simply reading an article about it from W3 schools, and thus it became
+      pretty simple to do after it.
+
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+   Google             Website       Helped with looking copy and substrings
+
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+    To be honest this project was easier than the previous one impart because we
+    did the other one and simply introduced and implemented them with functions. Thus,
+    overall this was one of the asier projects. 

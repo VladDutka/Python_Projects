@@ -1,0 +1,12 @@
+---
+:id: 103632228
+:submitters:
+- :name: Vladyslav Dutka
+  :email: vladyslav.dutka001@umb.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2021-12-06 04:09:55.578243000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2021-12-05 20:09:55.578243000 Z
+:status: processed
+:score: 89.73
